@@ -1,0 +1,44 @@
+body {
+    background-color: rgba(0, 0, 0, 0.849);
+    color: red;
+    font-size: 24px;
+}
+
+.key {
+  display: inline-block;
+  border-style: solid;
+  padding: 2rem;
+  transition: all .07s ease;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  font-family: sans-serif;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+}
+
+kbd {
+  display: block;
+}
+.keys {
+  position: fixed;
+  inset: 0px;
+  width: 65rem;
+  height: 5rem;
+  max-width: 100vw;
+  max-height: 100dvh;
+  margin: auto;
+}
+
+.pause {
+  cursor: pointer;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: yellow;
+  box-shadow: 0 0 10px yellow;
+}
+
+.not{
+    border-color:yellow;
+}
