@@ -20,8 +20,11 @@ window.addEventListener('keydown',function(e){
         console.log("Manually removed playing from:", key);
     }, 100);
         key.classList.add('playing')
+   
         const imagePath = key.getAttribute('data-image');
-        document.body.style.backgroundImage = `url('${imagePath}')`;
+        const imgElement = document.querySelector('.img-container img');
+        imgElement.src = imagePath;
+       
         document.body.style.backgroundRepeat = "no-repeat";
         document.body.style.backgroundSize = "100%";
          document.body.style.backgroundPosition = "bottom-center"
