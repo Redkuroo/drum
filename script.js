@@ -27,7 +27,7 @@ window.addEventListener('keydown',function(e){
        
         document.body.style.backgroundRepeat = "no-repeat";
         document.body.style.backgroundSize = "100%";
-         document.body.style.backgroundPosition = "bottom-center"
+        document.body.style.backgroundPosition = "bottom-center"
        
     }
       
