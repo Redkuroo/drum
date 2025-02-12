@@ -1,2 +1,2 @@
 # drum
-A simple drum using keyboard
+## A voice alphapetical drum for kids using keyboard
